@@ -1,0 +1,18 @@
+body {
+  color: red;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+  color: black;
+}
+
+.portfolio {
+  background-color: grey;
+  padding-left: 60px;
+  margin-bottom: 20px;
+}
