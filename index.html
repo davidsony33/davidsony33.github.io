@@ -3,151 +3,759 @@
 <head>
   <title>Davidson's Portfolio</title>
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="portfolio.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="CSS/portfolio.css">
+  <link rel="stylesheet" type="text/css" href="CSS/lightbox.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.0.0/ekko-lightbox.css">
+  <link href="https://fonts.googleapis.com/css?family=Abel|Poppins:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
 </head>
 <body>
 
-<!--Navigation Bar-->
-  <nav class="navbar navbar-default">
-  <div class="container-fluid menu">
-<!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Davidson Young</a>
-    </div>
-  </div>
 
-<!--Splash-->
-<div class="container-fluid">
-  <h1>Portfolio</h1>
 
-  <div class="row">
 
-    <div class="col-md-4">
-      <div class="card">
-        <img class="card-img-top" src="http://i.imgur.com/ESs1cG3.png" alt="Card image cap">
-        <div class="card-block">
-          <h2 class="card-title">RNNR</h2>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-    </div>
 
-    <div class="col-md-4">
-      <div class="card">
-        <img class="card-img-top" src="http://i.imgur.com/PRfE99i.png" alt="Card image cap">
-        <div class="card-block">
-          <h2 class="card-title">grax</h2>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-4">
-      <div class="card">
-        <img class="card-img-top" src="http://i.imgur.com/7bxJEaG.png" alt="Card image cap">
-        <div class="card-block">
-          <h2 class="card-title">Graphics and Illustration</h2>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-<!--RNNR-->
 <div class="container-fluid portfolio">
-<h1>RNNR</h1>
-  <p>Description</p>
-  <div class="row">
+  <div class="container-fluid splash">
+    <div id="page-title">
+      <h1>davidson young</h1>
+    </div>
+    <div id="my-title">
+      <h4>interaction designer</h4>
+  </div>
 
-    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-      <div class="hover ehover1">
-        <img class="img-responsive" src="http://i.imgur.com/NlLsxaa.jpg" alt="">
-            <div class="overlay">
-              <h2>Image 1</h2>
-                <button class="info" data-toggle="modal" data-target="#modal1">Design Process
-                </button>
+
+  <h1 class="header">My Work</h1>
+  <div class="row splash-cards">
+    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+      <div class="card">
+        <!--Card Image -->
+        <img class="card-img-top project-icons" src="http://i.imgur.com/ESs1cG3.png" alt="Card image cap">
+        <!--Card Content -->
+        <div class="card-block">
+          <a data-toggle="modal" data-target="#Modal-RNNR">
+          <h2 class="card-title">UI Design: RNNR</h2>
+          </a>
+          <p class="card-text">Keeps you running towards your goals!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+      <div class="card">
+        <!--Card Image -->
+        <img class="card-img-top project-icons" src="http://i.imgur.com/PRfE99i.png" alt="Card image cap">
+        <!--Card Content -->
+        <div class="card-block">
+          <a data-toggle="modal" data-target="#Modal-grax">
+          <h2 class="card-title">UI Design: grax</h2>
+          </a>
+          <p class="card-text">Making it easy to tip and support your favorite creators.</p>
+        </div>
+      </div>
+    </div>
+
+<!--Graphics Card -->
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+          <div class="card">
+            <!--Card Image -->
+            <img class="card-img-top project-icons" src="http://i.imgur.com/7bxJEaG.png" alt="Card image cap">
+              <!--Card Content -->
+            <div class="card-block">
+              <h2 class="card-title">Graphic Design</h2>
+              <p class="card-text">Coming soon...</p>
             </div>
-      </div>
-    </div>
-
-    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-      <div class="hover ehover1">
-        <img class="img-responsive" src="http://i.imgur.com/NlLsxaa.jpg" alt="">
-          <div class="overlay">
-            <h2>Image 2</h2>
-            <button class="info" data-toggle="modal" data-target="#modal1">Show code
-            </button>
           </div>
+        </div>
+
       </div>
     </div>
-
-
-    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-      <div class="hover ehover1">
-        <img class="img-responsive" src="http://i.imgur.com/NlLsxaa.jpg" alt="">
-          <div class="overlay">
-            <h2>Image 3</h2>
-            <button class="info" data-toggle="modal" data-target="#modal1">Show code
-            </button>
-          </div>
-      </div>
+    </div>
     </div>
 
-     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-        <div class="hover ehover1">
-          <img class="img-responsive" src="http://i.imgur.com/NlLsxaa.jpg" alt="">
-            <div class="overlay">
-              <h2>Image 4</h2>
-              <button class="info" data-toggle="modal" data-target="#modal1">Show code
-              </button>
+<!--Background and Experience-->
+<div class="container-fluid resume">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 about-me-header">
+          <div class="container exp-icons-container">
+            <div class="exp-icons">
+              <h1 class="header">About Me</h2>
             </div>
         </div>
       </div>
+    </div>
 
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <p>Hello! Thanks for checking out my work. I'm a self-taught UX Designer based in Silicon Valley.
+      After receiving an Art Degree, I fell into a different field, Human Resources.
+      I had a successful career in HR at Google as a People Manager. After Google, I had my own
+      leadership coaching and development practice. Coaching and working with UX Designers inspired
+      me to return to my passion.
+      <p>I completed a UX Course with Thinkful and learned by doing. I designed personal passion
+      projects and working on start-up ideas with friends.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <div>
+        <div class="exp-icons">
+          <div class="iconHover">
+            <a href="https://www.dropbox.com/s/o8tjrvnfhpo7md0/Davidson%20Young%20Resume.pdf?dl=0">
+              <i class="fa fa-file-text-o fa-2x responsive" aria-hidden="true"></i>
+            </a>
+
+          </div>
+          <p>My Resume</p>
+        </div>
+        <button type="button" class="btn btn-primary contact-btn" data-toggle="modal" data-target="#modalContact" data-whatever="@mdo">
+          <h4 id="sayHello">Say Hello!</h4>
+        </button>
+
+      </div>
+    </div>
   </div>
 </div>
 
-<!--GRAX-->
-<div class="container-fluid portfolio">
-   <h1>grax</h1>
-   <p>Description</p>
+
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <h2 class="subheader skills">Skills</h2>
+   <hr>
+      <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="iconHover">
+              <img class="img-responsive ResumeIcons" src="PortfolioAssets/HTML_Logo.png" alt="HTML">
+            <div class="iconOverlay">
+              <p class="iconDescription">HTML</p>
+            </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="iconHover">
+            <img class="responsive ResumeIcons" src="PortfolioAssets/CSS_Logo.png" alt="CSS">
+            <div class="iconOverlay">
+              <p class="iconDescription">CSS</p>
+            </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="iconHover">
+              <img class="img-responsive ResumeIcons" src="PortfolioAssets/javascript_logo.png" alt="Javascript">
+            <div class="iconOverlay">
+              <p class="iconDescription">Javascript</p>
+            </div>
+            </div>
+          </div>
+      </div>
+
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <div class="tools">
+        <h2 class="subheader">Tools</h2>
+          <hr>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+          <div class="iconHover">
+            <img class="img-responsive ResumeIcons" src="PortfolioAssets/AdobeIllustratorIcon.png" alt="Adobe Illustrator">
+          <div class="iconOverlay">
+            <p class="iconDescription">Illustrator</p>
+          </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+            <div class="iconHover">
+              <img class="img-responsive ResumeIcons" src="PortfolioAssets/SketchIcon.png">
+            <div class="iconOverlay">
+              <p class="iconDescription">Sketch</p>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+            <div class="iconHover">
+              <img class="img-responsive ResumeIcons" src="PortfolioAssets/InvisionIcon.png">
+            <div class="iconOverlay">
+              <p class="iconDescription">Invision</p>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+            <div class="iconHover">
+              <img class="img-responsive ResumeIcons" src="PortfolioAssets/BalsamiqIcon.png">
+            <div class="iconOverlay">
+              <p>Balsamiq</p>
+            </div>
+            </div>
+        </div>
+
+      </div>
+
+    </div>
+    </div>
+  </div>
 </div>
 
-<!--Graphic Design-->
-<div class="container-fluid portfolio">
-  <h1>Graphic Design</h1>
-  <p>Description</p>
+<!--RNNR Modal-->
+<div class="modal fade bs-example-modal-lg modal-fixed-header" id="Modal-RNNR" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+<div class="modal-dialog modal-lg" role="document">
+<!--RNNR Modal Header -->
+  <div class="modal-header">
+        <div class="row">
+            <div class="modal-icon-container">
+              <img class="img-responsive modal-icon" src="http://i.imgur.com/ESs1cG3.png">
+            </div>
+          <div>
+            <h1 class="modal-title">RNNR Mobile App</h1>
+          </div>
+        </div>
+  </div>
+<!--RNNR Modal content-->
+<div class="modal-content">
+      <div>
+        <i class="exit fa fa-times-circle-o" data-dismiss="modal" aria-hidden="true"></i>
+      </div>
+  <div class="container-fluid">
+<!--RNNR Modal Body  -->
+  <div class="modal-body">
+                <div class="row">
+                  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 modal-design-description">
+                    <h3>Design Process</h3>
+                    <h3>The Challenge</h3>
+                    <p>Design an app that will help users develop habits and accomplish their goals.</p>
+                    <p>RNNR started as a social habit app that allowed users to tailor their goals and notifications. I changed the focus to running based on user feedback.</p>
+                    <h4>TOOLS USED:</h4>
+                      <ul>
+                          <li>Paper and Ink</li>
+                          <li>Balsamiq</li>
+                          <li>Sketch</li>
+                          <li>Illustrator</li>
+                          <li>Invision</li>
+                      </ul>
+                  </div>
+                      <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 nopadding modal-image-card">
+                        <img class="img-responsive modal-image" src="RNNRAssets/RNNRDesignProcess.png">
+                      </div>
+                  </div>
+<!--RNNR Rapid Prototyping-->
+<!--row 1  -->
+<div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 modal-design-description">
+        <h3>Rapid Prototyping</h3>
+                <p>I made quick progress by brainstorming and sketching the app.
+                  This allowed me to develop a paper prototype to test with users.</p>
+                <h4>INSIGHTS:</h4>
+                    <ul>
+                      <li>The users found that the experience too cumbersome.</li>
+                      <li>Too many options.</li>
+                      <li>Too much typing.</li>
+                    </ul>
+                  <h4>REFOCUSING:</h4>
+                    <ul>
+                      <li>I pivoted and refocused the app towards runners.</li>
+                      <li>Focusing on the problems of runners allowed me to design sharper solutions.</li>
+                      <li>Enabled me to develop more features to help runners accomplish their goals.</li>
+                    </ul>
+                </div>
+    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 nopadding modal-image-card">
+                <!--Row 2  -->
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                      <img class="img-responsive modal-image" src="RNNRAssets/RNNRFirstMindMapandSketches.png">
+                    </div>
+                </div>
+                <!--/Row 2 -->
+
+                <!--Row3  -->
+                <div class="row">
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding">
+                    <div>
+                      <img class="img-responsive modal-image" src="RNNRAssets/RNNRFirstPrototype.png">
+                    </div>
+                  </div>
+                </div>
+              <!--/Row3  -->
+    </div>
+
+</div><!--/Row 1  -->
+
+
+
+
+<!--RNNR Brainstorming  -->
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 modal-design-description">
+                <h3>Brainstorming</h3>
+                <p>The new focus required me to generate ideas and features for the running app.
+                  The mind map process helped me determine features to design.</p>
+              </div>
+                  <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 nopadding modal-image-card">
+                    <img class="img-responsive modal-image" src="RNNRAssets/RNNRSecondMindMap.png">
+                  </div>
+            </div>
+
+<!--RNNR Competitive Analysis  -->
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 modal-design-description">
+              <h3>Competitive Analysis</h3>
+              <p>There are many running apps and devices in the marketplace. I tested and analyzed
+                a number mobiles apps to determine how to differentiate RNNR from the field. </p>
+              <h4>INSIGHTS:</h4>
+                <ul>
+                  <li>Most apps have freemium models that only allow users to plan their goals if
+                    they pay for a membership.</li>
+                  <li>Need to differentiate app.</li>
+                </ul>
+              <h4>ACTIONS:</h4>
+                <ul>
+                  <li>Target the middle market (Runtastic) instead of the mass market (Fitbit, Nike+)
+                    and niche market for hard core athletes (Strava). Maintain free model.</li>
+                  <li>Implement advertising business model (highly targeted: races, gear, and rewards).</li>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 nopadding modal-image-card">
+                <table class="Competitive-Analysis-Table table-hover">
+                    <thead>
+                       <tr>
+                         <th>Competitors</th>
+                         <th><img class="img-responsive Competitive-Analysis-Logo" src="RNNRAssets/Fitbit_logo.svg.png"></th>
+                         <th><img class="img-responsive Competitive-Analysis-Logo" src="RNNRAssets/runtastic_logo-main_rgb-blue.png"></th>
+                         <th><img class="img-responsive Competitive-Analysis-Logo" src="RNNRAssets/STRAVAlogo.png"></th>
+                       <tr>
+                    </thead>
+                      <tbody>
+                        <tr class="Competitive-Analysis-Col">
+                          <td class="Competitive-Analysis-Row">Overview</td>
+                          <td>Fitbit sells a variety of devices that track heart rate, steps, and
+                            distance. They have 9.5m active users.</td>
+                          <td>Runstactic is a popular running app with 180m app downloads
+                            and 90m+ registered users.</td>
+                          <td>Strava is an exercise tracking app targeting competitive athletes.
+                            They have 192,000 premium users and 1.2 active users.
+                          </td>
+                        </tr>
+
+                        <tr class="Competitive-Analysis-Col">
+                          <td class="Competitive-Analysis-Row">Target Market</td>
+                          <td>Mass marketing including non-runners.</td>
+                          <td>Everyday runners.</td>
+                          <td>Serious athletes that want to analyze their performance:
+                            cylists, runners, and triathletes.</td>
+                        </tr>
+
+                        <tr class="Competitive-Analysis-Col">
+                          <td class="Competitive-Analysis-Row">Key Features</td>
+                          <td>
+                            <ul>
+                              <li>Easy to use devices that can track heart rate, steps, sleep
+                                patterns, food consumption, and weight.</li>
+                              <li>GPS is limited to high end devices. Fitbit mobile app allows
+                                GPS tracking</li>
+                              <li>Achievements</li>
+                            </ul>
+                          </td>
+                          <td>
+                            <ul>
+                              <li>Create and search for routes (Premium)</li>
+                              <li>Cheer runners during their run (Premium)</li>
+                              <li>Story running (running related audium books for purchase)</li>
+                            </ul>
+                          </td>
+                          <td>
+                            <ul>
+                              <li>Training calendar and log</li>
+                              <li>Flyby (Premium): track runs and rides with your group.</li>
+                              <li>Route search and planning</li>
+                              <li>Monthly challenges.</li>
+                              <li>Lots of data: elevation, temperature, grade adjusted pace, etc.</li>
+                            </ul>
+                          </td>
+
+                        </tr>
+
+                        <tr class="Competitive-Analysis-Col">
+                          <td class="Competitive-Analysis-Row">Business Model</td>
+                          <td>
+                            <ul>
+                              <li>Hardware</li>
+                              <li>Premium subscription: $49.99/year</li>
+                            </ul>
+                          </td>
+                          <td>
+                            <ul>
+                              <li>Freemium</li>
+                              <li>Puschase individual running plans</li>
+                              <li>Premium Member: $9.00 / month or $49.00 / year</li>
+                            <ul>
+                          </td>
+                          <td>
+                            <ul>
+                              <li>Freemium</li>
+                              <li>Premium Membership: $59 / year</li>
+                            </ul>
+                          </td>
+                          <td> </td>
+                        </tr>
+
+                        <tr class="Competitive-Analysis-Col">
+                          <td class="Competitive-Analysis-Row">Strengths</td>
+                          <td>
+                            <ul>
+                              <li>Easy to use</li>
+                              <li>Fun</li>
+                            </ul>
+                          </td>
+                          <td>
+                            <ul>
+                              <li>Lots of features and resources (on website)</li>
+                              <li>Connects with Fitbit.</li>
+                            </ul>
+                          </td>
+                          <td>
+                            <ul>
+                              <li>Supports most GPS devices</li>
+                              <li>Route planning</li>
+                              <li>Training analysis</li>
+                            </ul>
+                          </td>
+                        </tr>
+
+                        <tr class="Competitive-Analysis-Col">
+                          <td class="Competitive-Analysis-Row">Weaknesses</td>
+                          <td>
+                            <ul>
+                              <li>Limited features without membership</li>
+                              <li>Low accuracy without GPS input</li>
+                          </td>
+                          <td>Limited stats with free version.</td>
+                          <td>Limited mobile app - doesn’t contain log, plan and run entry.</td>
+                        </tr>
+
+                      </tbody>
+                  </table>
+                </div>
+          </div>
+        <!--RNNR Developing Personas  -->
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 modal-design-description">
+            <h3>Developing Personas</h3>
+            <p>Developed user personas based on user interviews to guide design decisions.</p>
+            <h4>INSIGHTS:</h4>
+              <ul>
+                <li>Potential range of motivators and goals</li>
+                <li>Need to give users ability to adjust engagement</li>
+              </ul>
+            <h4>ACTIONS:</h4>
+              <ul>
+                <li>Align features towards runners that want to train for races.
+                  But don't overwhelm users during first time use and onboarding.</li>
+                <li>Allow users to adjust notifications, reminders, and nudges.</li>
+              </ul>
+          </div>
+              <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 nopadding modal-image-card">
+                <img class="img-responsive modal-image" src="RNNRAssets/RNNRPersonas.png">
+              </div>
+        </div>
+        <!--RNNR Creating User Flows  -->
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 modal-design-description">
+            <h3>Creating User Flows</h3>
+            <p>I started this stage of the process by developing user stories:</p>
+              <ul>
+                <li>The user wants to set a running goal.</li>
+                <li>The user want to create a challenge for herself and her friends.</li>
+                <li>The user want to record a run.</li>
+                <li>The user wants to share her run with her friends.</li>
+                <li>The user wants to review and edit her running plan.</li>
+                <li>The user wants to check out her friends' activities.</li>
+                <li>Then I created flow charts to map the user's actions to accomplish her goals.</li>
+              </ul>
+          </div>
+              <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 nopadding modal-image-card">
+                <img class="img-responsive modal-image-flow" src="RNNRAssets/RNNRUserFlow.png">
+              </div>
+        </div>
+<!--Insert Usability Testing and User Feedback  -->
+        <div class="design-phase">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 modal-design-description">
+            <h3>Usability Testing and User Feedback</h3>
+            <p>I developed a prototype in Invision to test with users.</p>
+            <h4>INSIGHTS:</h4>
+              <ul>
+                <li>Simplify UI. Prioritize information.</li>
+                <li>Remove map and icons when they're not needed.</li>
+                <li>Add function to change music.</li>
+                <li>Add A Run button needs to be more prominent.</li>
+              </ul>
+              <h4>INSIGHTS:</h4>
+                <ul>
+                  <li>Re-drafted wireframes and user flows.</li>
+                  <li>Removed background image.</li>
+                  <li>Increased font size and removed borders.</li>
+                </ul>
+          </div>
+              <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 nopadding modal-image-card">
+                <img class="img-responsive" src="RNNRAssets/RNNRSecondPrototype.png">
+              </div>
+        </div>
+      </div>
+
+<!--RNNR Design Inspiration -->
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 modal-design-description">
+            <h3>Design Inspiration</h3>
+            <p>I was inspired by a painting that I saw during an art walk in downtown San Jose.
+              I was drawn the colors of the sky with blues, reds and yellows.</p>
+            <p>Also, I loved the whimsical illustrations of Chris Fernandez and Anton Fritsler. They're fun and happy. This style can differentiate the app from the other running apps that are currently available. </p>
+            <h4>ACTIONS:</h4>
+              <ul>
+                <li>Created color scheme</li>
+                <li>Created style guide</li>
+                <li>Created icons and illustrations</li>
+              </ul>
+          </div>
+              <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 nopadding modal-image-card">
+                <img class="img-responsive" src="RNNRAssets/RNNRDesignInspiration.png">
+              </div>
+        </div>
+
+<!--Insert prototype  -->
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 modal-design-description">
+            <h3>prototype</h3>
+            <p>I created a high fidelity prototype in Sketch and Invision.</p>
+            <h4>NEXT STEPS:</h4>
+              <ul>
+                <li>Conduct additional usability testing</li>
+                <li>Develop business model to determine viability in the marketplace</li>
+              </ul>
+          </div>
+              <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 nopadding modal-image-card">
+                <img class="img-responsive" src="RNNRAssets/RNNRDesignProcess.png">
+              </div>
+        </div>
+
+<!--Insert RNNR Footer  -->
+        <div class="container-fluid">
+        <div class="modal-footer">
+          <p>grax</p>
+          <p>Graphics and Illustration</p>
+          </div>
+        </div>
+  </div>
 </div>
+</div><!--/.modal-content  -->
+</div><!--/.modal-dialog  -->
+</div><!--/.modal -->
 
-<!--portfolio-->
-<div>
-  <a href="https://www.dropbox.com/s/o8tjrvnfhpo7md0/Davidson%20Young%20Resume.pdf?dl=0"><h2>Resume</h2></a>
-   <h2>Skills</h2>
-        <ul>
-          <li>CSS</li>
-          <li>HTML</li>
-          <li>Javascript</li>
-        </ul>
-    <h2>Tools</h2>
-        <ul>
-          <li>Illustrator</li>
-          <li>Sketch</li>
-          <li>InVision</li>
-        </ul>
+
+
+<!--grax Modal -->
+<div class="modal fade bs-example-modal-lg modal-fixed-header" id="Modal-grax" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+<!--grax Modal Header -->
+  <div class="modal-header">
+        <div class="row">
+          <div class="modal-icon-container">
+              <img class="img-responsive modal-icon" src="RNNRAssets/grax-coin-small.png">
+          </div>
+          <div>
+            <h1 class="modal-title">grax</h1>
+          </div>
+        </div>
+  </div>
+<!--grax  Modal content-->
+<div class="modal-content">
+      <div>
+        <i class="exit fa fa-times-circle-o" data-dismiss="modal" aria-hidden="true"></i>
+      </div>
+
+<!--grax Modal Body  -->
+  <div class="modal-body">
+                <div class="row">
+                  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 modal-design-description">
+                    <h3>Design Process</h3>
+                    <h3>The Challenge</h3>
+                    <p>Enable people to support independent creators and journalists when they are motivated.</p>
+                    <p>The idea came to me while listening to a podcast as I was walking my dogs. I thought about supporting the
+                      podcast but I couldn't do it at that moment. Of course, I had forgotten about it by the time I got home.</p>
+                    <p>RNNR started as a social habit app that allowed users to tailor their goals and notifications. I changed the focus to running based on user feedback.</p>
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 modal-design-description">
+                    <h3>Initial Development<h3>
+                    <p>grax (formerly TinyTips) was initially developed as a browser extension during a hackathon. I collaborated with
+                      engineers to develop a working prototype. I created the wireframes and low-level mock-ups during
+                      the Hackathon. Also, I conducted preliminary research on competitors. We were under time
+                      constraints but we were able to develop a working demo within 5 hours.</p>
+                    <h4>TOOLS USED:</h4>
+                      <ul>
+                          <li>Paper and Ink</li>
+                          <li>Sketch</li>
+                      </ul>
+                  </div>
+                </div>
+
+<!--grax Wireframes-->
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 modal-design-description">
+                  <h3>Wireframes</h3>
+                  <p>I created the initial wireframes to include the sign-up experience.</p>
+                  <h4>INSIGHTS:</h4>
+                  <p>Designing in a hackathon posed unexpected challenges. My partners had to learn
+                    HTML and Javascript on the spot. So the development took longer than expected.
+                    Unfortunately, we were only able to create a demo of the tipping screen and couldn't
+                    get user feedback.</p>
+                </div>
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 nopadding modal-image-card">
+                      <img class="img-responsive modal-image" src="RNNRAssets/grax-wireframes.png">
+                    </div>
+              </div>
+
+<!--grax post hackathon strategy  -->
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 modal-design-description">
+        <h3>Post Hackathon Strategy</h3>
+          <p>I was excited to continue developing the app after the hackathon.</p>
+          <h4>The Plan:</h4>
+            <ul>
+              <li>Analyze competitive landscape and business model: PayPal, Patreon, Venmo, others</li>
+              <li>Survey creators and users.</li>
+              <li>Design web experience: user stories, wire framing, testing, and prototyping.</li>
+            </ul>
+      </div>
+
+    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 modal-design-description">
+                                <h3>Competitive Analysis</h3>
+                                <p>Developing a solid business model is an important step
+                                  it the product's development due to the cost of transaction fees.
+                                  Also, services like PayPal already exist with large a large base customers
+                                  (users) and businesses (creators).</p>
+                                  <h4>I researched and tried to answer these key questions:</h4>
+                                  <ul>
+                                    <li>What's the competitive landscape?</li>
+                                    <li>How do you minimize the transaction fees?</li>
+                                    <li>What are the opportunities to monetize?</li>
+                                    <li>What's the market potential for this service?</li>
+                                  </ul>
+                                  <h4>FINDINGS AND INSIGHTS (but more questions):</h4>
+                                  <ul>
+                                    <li>Lots of successful (Patreon, PayPal) and unsuccessful (ProTipp, Reddcoin)
+                                      competitors including. YouTube also has a Fan Funding feature that allows
+                                      viewers to support creators.</li>
+                                    <li>Patreon bundles contributions and sends one transaction a month to minimize fees.</li>
+                                    <li>Monetization: take a cut of the contributions (Patreon = 5%, Paypal = 2.9%).
+                                      Can we earn interest the moneys as we wait to bundle the contributions?</li>
+                                    <li>Potential market: the success of Patreon indicates an interest in supporting creators.
+                                      Is there room for competition? What would be the competitive advantage or differentiator?</li>
+                                  </ul>
+                              </div>
+                            </div>
+
+<!--grax Sketching-->
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 modal-design-description">
+        <h3>Sketching</h3>
+          <p>Tipping a street performer is a physical act. The supporter pulls out a coin, walks up to the performer, and drops
+            the coin into the hat. The supporter may notice the sound that the coin makes as it lands into the
+            pile.</p>
+          <p>How do you replicate a similar experience in a tipping app?</p>
+          <p>I sketched animations for the coin to simulate the effect and give the user see the tipping process. Also, I wanted
+            to give the user a option to give multiple times in one instance. The browser should reset enabling
+             the user to tip again.</p>
+            <h4>INSIGHTS:</h4>
+              <p>Designing in a hackathon posed unexpected challenges. My partners had to learn
+              HTML and Javascript on the spot. So the development took longer than expected.
+              Unfortunately, we were only able to create a demo of the tipping screen and couldn't
+              get user feedback.</p>
+            <h4>Action:</h4>
+              <ul>
+                <li>Test 2 hover animation with users:</li>
+                <ul>
+                  <li>Add shadow</li>
+                  <li>Enlarge</li>
+                </ul>
+                <li>Test 3 on click animations with users:</li>
+                <ul>
+                  <li>Deposit</li>
+                  <li>Drop</li>
+                  <li>Spin</li>
+                </ul>
+              </ul>
+
+      </div>
+      <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 nopadding modal-image-card">
+          <img class="img-responsive modal-image" src="RNNRAssets/grax-coin-animation-sketches.jpg">
+      </div>
+    </div>
+
+
+<!--grax Conclusion-->
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 modal-design-description">
+            <h3>Conclusion</h3>
+              <p>After analyzing the competitive landscape, I decided not to continue with grax.</p>
+          </div>
+          <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 nopadding modal-image-card">
+              <img class="img-responsive modal-image-grax-popup" src="RNNRAssets/grax-Tipping-One-Coin.png">
+          </div>
+        </div>
 </div>
+</div><!--/.modal-content  -->
+</div><!--/.modal-dialog  -->
+</div><!--/.modal -->
 
 
-<script src="https://code.jquery.com/jquery-3.1.1.min.js"
-  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-  crossorigin="anonymous"></script>
+
+
+<!--Modal-contact-->
+<div class="modal fade bs-example-modal-sm" id="modalContact" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+<i class="exit fa fa-times-circle-o" data-dismiss="modal" aria-hidden="true"></i>
+<h4 class="modal-title" id="modalContactHeader">Say Hello!</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="sender-name" class="control-label"></label>
+            <input name="Your Name" type="text" placeholder="Your Name" class="form-control" id="sender-name">
+          </div>
+          <div class="form-group">
+            <label for="sender-email" class="control-label"></label>
+            <input name="Your Email" type="text" placeholder="Your Email" class="form-control" id="sender-email">
+          </div>
+          <div class="form-group">
+            <label for="sender-subject" class="control-label"></label>
+            <input name="Subject" type="text" placeholder="Subject" class="form-control" id="sender-subject">
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="control-label"></label>
+            <textarea class="form-control" placeholder="Your message..." id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary button-send">Send message</button>
+      </div>
+</div><!--/.modal-content  -->
+</div><!--/.modal-dialog  -->
+</div><!--/.modal -->
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/modal.js"></script>
+<script type="text/javascript" src="js/lightbox.min.js"></script>
+<script type="text/javascript" src="scripts/prototype.js"></script>
 </body>
 </html>

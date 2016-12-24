@@ -1,0 +1,643 @@
+font-family: 'Poppins', sans-serif;
+font-family: 'Abel', sans-serif;
+font-family: 'Montserrat', sans-serif;
+
+body {
+  color: white;
+}
+
+h1 {
+  font-size: 32px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+
+h2 {
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  color: rgba(0,0,0,.7);
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+}
+
+hr {
+  border-color: white;
+  border-width: medium;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+
+p {
+  font-family: 'Abel', sans-serif;
+  font-size: 18px;
+}
+
+
+.container-fluid {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  background: #f85032; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #f85032 , #e73827); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #f85032 , #e73827); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow:0px 2px 2px rgba(0,0,0,0.5);
+  border-bottom: none;
+  margin-bottom: 20px;
+}
+
+
+
+
+.portfolio {
+  padding-left: 56px;
+  padding-right: 56px;
+  padding-bottom: 40px;
+  background: #F44336; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #FF1744, #F44336); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #FF1744, #F44336); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.splash {
+  padding: 0px;
+  margin: 0px;
+}
+
+.resume {
+  color: #212121;
+  background-color: #CDDC39;
+  padding-left: 56px;
+  padding-right: 56px;
+}
+
+.card {
+  background-color: #90CAF9;
+  height: 250px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.card:hover {
+  box-shadow: 0 3px 3px rgba(0,0,0,0.5);
+}
+
+.card-img-top {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-text {
+  text-align: center;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+.arrows {
+  color: grey;
+  font-size: 32px;
+}
+
+.arrows:hover {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.row {
+  margin-bottom: 8px;
+}
+
+.title:hover {
+    box-shadow: 0 2px 1px rgba(0,0,0,0.3);
+}
+
+
+.overlay {
+  position: absolute;;
+  top: 0px;
+  left: 16px;
+  height: 24px;
+  width: 200px;
+  color: white;
+  background-color: rgba(255, 0, 0, 0.5); (0,0,0);
+  padding-left: 10px;
+}
+
+
+.project-icons {
+  width: auto;
+  height: 100px;
+}
+
+/*modal*/
+.modal {
+  position: absolute;
+  width: auto;
+  height: auto;
+}
+
+.modal-dialog {
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+/* The Close Button */
+.modal .exit {
+    position: fixed;
+    color: #546E7A;
+    font-size: 24px;
+    top: 16px;
+    right: 16px;
+}
+
+.exit:hover {
+    color: #263238;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header {
+  color: black;
+}
+
+.modal-title {
+  color: black;
+  vertical-align: baseline;
+  margin-left: 16px;
+}
+
+.modal-header {
+  height: 80px;
+  background-color: #90CAF9;
+  border-radius: 0px;
+  border-bottom: 0px;
+  padding-left: 48px;
+  padding-top: auto;
+  padding-bottom: auto;
+  margin-bottom: 0px;
+  box-shadow: 0 4px 4px rgba(0,0,0,0.6);
+}
+
+.modal-icon-container {
+    height: 56px;
+    padding: 0 auto;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.modal-icon {
+  display: inline-block;
+  vertical-align: middle;
+  height: 56px;
+}
+
+.exp-icons-container {
+  height: auto;
+  padding-left: 0px;
+}
+
+.exp-icons {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+  padding: 4px;
+  margin: auto;
+}
+
+.modal-footer {
+  background-color: #B0BEC5;
+  color: white;
+  padding: 0px;
+  border-top: none;
+  padding-right: 40px;
+}
+
+.modal-footer .container-fluid{
+  padding: 0px;
+}
+
+.modal-content {
+  height: 100%;
+  width: 100%;
+  min-height: 100%;
+  border-radius: 0px;
+  border: 0px;
+  color: black;
+  padding: 0px;
+  margin-top: 0px;
+}
+
+.modal-body {
+  background-color: #B0BEC5;
+  height: 500px;
+  width: auto;
+  margin-top: 0px;
+  border-radius: 0px;
+  overflow-y: auto;
+}
+
+.modal-design-description {
+  color: black;
+  background-color: white;
+  padding-left: 32px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  height: auto;
+  margin-top: 0px;
+}
+
+.modal-image-card {
+  background-color: white;
+  padding: 16px;
+  margin-top: 0px;
+}
+
+.modal-image {
+  padding: 8px;
+}
+
+.modal-image-flow {
+  padding: 40px;
+}
+
+.modal-image-grax-popup {
+  width: 300px;
+  height: auto;
+  padding-left: 50px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.divider {
+  height: 4px;
+  background-color: red;
+  padding: 0 !important;
+}
+
+.design-phase {
+  margin-bottom: 4px;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.ResumeIcons {
+  height: 40px;
+  width: auto;
+  margin-bottom: 40px;
+  align-content: center;
+}
+
+
+.fa-file-text-o {
+  color: #000000;
+  opacity: 0.38;
+}
+
+.fa-file-text-o:hover {
+  color: #F44336;
+  background-color: rgba(255,255,255,.5);
+  opacity: 0.74;
+}
+
+.fa-hand-spock-o {
+  color: #000000;
+  opacity: 0.38;
+}
+
+.fa-hand-spock-o:hover  {
+  color: #000000;
+  opacity: 0.54;
+}
+
+.tools {
+  padding: 16px;
+}
+
+.iconHover {
+  width: 120px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.iconHover .iconOverlay{
+  width:auto;
+  height:auto;
+  position: relative;
+  overflow:hidden;
+  top: -30px;
+  left: auto;
+  margin-left: auto;
+  margin-right: auto;
+  opacity:0;
+  -webkit-transition:all .2s ease-in-out;
+  transition:all .2s ease-in-out
+  }
+
+.iconHover img {
+display:block;
+position:relative;
+margin-left: auto;
+margin-right: auto;
+}
+
+.iconHover .ResumeIcons {
+display:block;
+position:relative;
+margin-left: auto;
+margin-right: auto;
+}
+
+.iconHover p {
+text-transform:uppercase;
+color: rgba(0,0,0);
+text-align:center;
+position:relative;
+font-size:18px;
+background:none;
+-webkit-transform:translatey(-100px);
+-ms-transform:translatey(-100px);
+transform:translatey(-10px);
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+padding:0px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.iconHover a.info {
+display:inline-block;
+text-transform:uppercase;
+color:#fff;
+opacity:0;
+filter:alpha(opacity=0);
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+margin:40px 0 0;
+padding:8px 16px;
+}
+
+.iconHover:hover .iconOverlay {
+opacity:1;
+filter:alpha(opacity=100);
+}
+
+.iconHover:hover p,.iconHover:hover a.info {
+opacity:1;
+filter:alpha(opacity=100);
+-ms-transform:translatey(0);
+-webkit-transform:translatey(0);
+transform:translatey(0);
+}
+
+.icon-bg-circle {
+  background-color: white;
+}
+
+.icon-bg-circle:hover {
+  background-color: white;
+}
+
+.design-phase {
+  background-color: white;
+  height: 440px;
+}
+
+.Competitive-Analysis-Table {
+  padding-left: 32px;
+  margin: 8px;
+  color: black;
+}
+
+table {
+  padding-left: 100px;
+}
+
+.Competitive-Analysis-Row {
+  font-weight: bold;
+  width:32px;
+}
+
+.Competitive-Analysis-Logo {
+  height: 20px;
+  width: auto;
+}
+
+.table-hover{
+
+}
+
+th {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: grey;
+  width: 280px;
+  align-content: center;
+}
+
+tr {
+  padding-left: 16px;
+  padding-bottom: 8px;
+  text-align: left;
+  vertical-align: text-top;
+}
+
+td .Competitive-Analysis-Col {
+  width: auto;
+}
+
+td {
+  font-size: 12px;
+  padding: 16px;
+  padding-bottom: 8px;
+  width: 280px;
+}
+
+li {
+  padding-left: 0px;
+}
+
+
+.contact-btn {
+    display: inline-block;
+    width: 160px;
+    height: 40px;
+    margin: auto;
+    padding: 0 auto;
+    overflow:hidden;
+    border: none;
+    background: #82B1FF;
+    color: #f2f2f2;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.3), inset 0px 3px 2px 0px rgba(255,255,255,0.3);
+}
+
+.contact-btn:before {
+    font-family: FontAwesome;
+    content:"\f1d8";
+    position: absolute;
+    top: 11px;
+    left: -30px;
+    transition: all 200ms ease;
+}
+
+.contact-btn:hover:before {
+    left: 7px;
+}
+
+#sayHello{
+  margin: 0 auto;
+}
+
+.about-me-header {
+  height: auto;
+  padding-top: 0 auto;
+  padding-bottom: 0 auto;
+  margin-top: 24px;
+  vertical-align: middle;
+}
+
+#page-title {
+  font-family: Montserrat;
+  text-transform: uppercase;
+  font-size: 36px;
+  color: white;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+}
+
+#my-title {
+  font-family: Montserrat;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 24px;
+  color: rgba(0,0,0,0.54);
+  margin-bottom: 40px;
+  padding: 0px;
+}
+
+#modalContact {
+  position: absolute;
+  top: 5%;
+  margin: 0 auto;
+  width: 500px;
+  height: auto;
+}
+
+#modalContact .modal-header {
+  height: 48px;
+  padding-left: 0px;
+}
+
+#modalContactHeader {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#modalContact .modal-content {
+  height: 300px;
+}
+
+#modalContact .modal-body {
+  height: 340px;
+  font-family: Poppins;
+  font-size: 16px;
+  padding: 0px;
+  background-color: #B0BEC5;
+}
+
+.form-group {
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+#message-text {
+  height: 120px;
+}
+
+#modalContact .modal-footer {
+  height: 48px;
+  padding-top: 0 auto;
+  padding-bottom: 0 auto;
+  padding-right: 16px;
+  background-color: #B0BEC5;
+  border-top: none;
+}
+
+.button-send {
+  background-color: #82B1FF;
+  margin-bottom: 16px;
+  border: none;
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.3), inset 0px 3px 2px 0px rgba(255,255,255,0.3);
+}
+
+#resume {
+  float: left;
+}
+
+.skills {
+  margin-top: 0px;
+  padding-top: 0px;
+}
