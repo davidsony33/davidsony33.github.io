@@ -173,8 +173,8 @@ background: linear-gradient(to left, #FF1744, #F44336); /* W3C, IE 10+/ Edge, Fi
     position: fixed;
     color: #546E7A;
     font-size: 24px;
-    top: 16px;
-    right: 16px;
+    top: 20px;
+    right: 20px;
 }
 
 .exit:hover {
@@ -576,7 +576,7 @@ li {
 }
 
 #modalContact {
-  position: absolute;
+  position: fixed;
   top: 5%;
   margin: 0 auto;
   width: 500px;
