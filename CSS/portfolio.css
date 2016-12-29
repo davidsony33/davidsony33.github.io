@@ -78,8 +78,8 @@ background: linear-gradient(to left, #FF1744, #F44336); /* W3C, IE 10+/ Edge, Fi
 .resume {
   color: #212121;
   background-color: #CDDC39;
-  padding-left: 56px;
-  padding-right: 56px;
+  padding-left: 72px;
+  padding-right: 72px;
 }
 
 .card {
@@ -210,13 +210,19 @@ background: linear-gradient(to left, #FF1744, #F44336); /* W3C, IE 10+/ Edge, Fi
 
 .exp-icons-container {
   height: auto;
-  padding-left: 0px;
+  padding-left: 4px;
+  padding-right: 0px auto;
+  vertical-align: middle;
+  background-color: white;
+  width: 80px;
+  height: auto;
+  border-radius: 8px;
 }
 
 .exp-icons {
   display: inline-block;
   vertical-align: middle;
-  float: none;
+  align-items: center;
   padding: 4px;
   margin: auto;
 }
@@ -321,30 +327,36 @@ background: linear-gradient(to left, #FF1744, #F44336); /* W3C, IE 10+/ Edge, Fi
   align-content: center;
 }
 
+.fa-paper-plane {
+  font-size: 24px;
+  color: #F44336;
+  margin-right: 8px;
+  margin-top: 0px;
+}
+
+.fa-paper-plane:hover {
+  color: rgba(255,255,255,1.0);
+}
 
 .fa-file-text-o {
-  color: #000000;
-  opacity: 0.38;
+  font-size: 24px;
+  color: #F44336;
+  margin-right: 8px;
 }
 
 .fa-file-text-o:hover {
-  color: #F44336;
-  background-color: rgba(255,255,255,.5);
-  opacity: 0.74;
+  color: rgba(255,255,255,1.0);
 }
 
-.fa-hand-spock-o {
-  color: #000000;
-  opacity: 0.38;
-}
 
-.fa-hand-spock-o:hover  {
-  color: #000000;
-  opacity: 0.54;
+.tools-section {
+  padding: 0px;
+  align-content: flex-end;
 }
 
 .tools {
-  padding: 16px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .iconHover {
@@ -352,8 +364,8 @@ background: linear-gradient(to left, #FF1744, #F44336); /* W3C, IE 10+/ Edge, Fi
   position: relative;
   top: 0px;
   left: 0px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
   padding-bottom: 0px;
   padding-right: 0px;
   padding-left: 0px;
@@ -499,56 +511,17 @@ li {
 }
 
 
-.contact-btn {
-    display: inline-block;
-    width: 160px;
-    height: 40px;
-    margin: auto;
-    padding: 0 auto;
-    overflow:hidden;
-    border: none;
-    background: #FF1744;
-    color: #f2f2f2;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 4px;
-    position: relative;
-    box-sizing: border-box;
-    transition: all 500ms ease;
-}
-
-.contact-btn:before {
-    font-family: FontAwesome;
-    content:"\f1d8";
-    position: absolute;
-    top: 11px;
-    left: -30px;
-    transition: all 200ms ease;
-}
-
-.contact-btn:hover {
-  color: white;
-  background: #FF1744;
-  font-weight: bolder;
-  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.3);
-}
-
-.contact-btn:hover:before {
-    left: 7px;
-}
-
-#sayHello{
-  margin: 0 auto;
-}
-
 .about-me-header {
   height: auto;
-  padding-top: 0 auto;
-  padding-bottom: 0 auto;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
   margin-top: 24px;
-  vertical-align: middle;
+}
+
+.about-me-description {
+  padding-left: 0px;
+  margin-left: 16px;
 }
 
 #page-title {
@@ -566,7 +539,7 @@ li {
   font-style: normal;
   text-transform: uppercase;
   font-size: 24px;
-  color: rgba(0,0,0,0.34);
+  color: rgba(255,255,255,0.54);
   margin-bottom: 40px;
   padding: 0px;
 }
@@ -621,29 +594,6 @@ li {
   background-color: #B0BEC5;
   border-top: none;
 }
-
-.button-send {
-  background-color: #FF1744;
-  margin-bottom: 16px;
-  border: none;
-}
-
-.button-send:hover {
-  background-color: #FF1744;
-  color: white;
-  margin-bottom: 16px;
-  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.3);
-}
-
-.button:active {
-  background-color: #FF1744;
-  margin-bottom: 16px;
-  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.3), inset 0px 3px 2px 0px rgba(255,255,255,0.3);
-}
-
-
-
-
 
 #resume {
   float: left;
