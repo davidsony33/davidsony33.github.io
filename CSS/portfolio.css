@@ -1,6 +1,5 @@
 font-family: 'Poppins', sans-serif;
 font-family: 'Abel', sans-serif;
-font-family: 'Montserrat', sans-serif;
 
 body {
   color: white;
@@ -9,7 +8,7 @@ body {
 h1 {
   font-size: 32px;
   font-family: 'Poppins', sans-serif;
-  color: white;
+  color: rgba(0,0,0,.7);
 }
 
 
@@ -28,6 +27,16 @@ h4 {
   font-family: 'Poppins', sans-serif;
 }
 
+p {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+p.imagedescription {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
 hr {
   border-color: white;
   border-width: medium;
@@ -36,15 +45,8 @@ hr {
   margin-bottom: 16px;
 }
 
-p {
-  font-family: 'Abel', sans-serif;
-  font-size: 18px;
-}
-
-
-.container-fluid {
-  margin: 0px;
-  padding: 0px;
+.jumbotron {
+  background-image: url();
 }
 
 .navbar {
@@ -58,9 +60,6 @@ p {
   margin-bottom: 20px;
 }
 
-
-
-
 .portfolio {
   padding-left: 56px;
   padding-right: 56px;
@@ -70,10 +69,6 @@ background: -webkit-linear-gradient(to left, #FF1744, #F44336); /* Chrome 10-25,
 background: linear-gradient(to left, #FF1744, #F44336); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.splash {
-  padding: 0px;
-  margin: 0px;
-}
 
 .resume {
   color: #212121;
@@ -158,55 +153,6 @@ background: linear-gradient(to left, #FF1744, #F44336); /* W3C, IE 10+/ Edge, Fi
   padding: 0;
 }
 
-/* The Close Button */
-.modal .exit {
-    position: fixed;
-    color: #546E7A;
-    font-size: 24px;
-    top: 20px;
-    right: 20px;
-}
-
-.exit:hover {
-    color: #263238;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.header {
-  color: black;
-}
-
-.modal-title {
-  color: black;
-  vertical-align: baseline;
-  margin-left: 16px;
-}
-
-.modal-header {
-  height: 80px;
-  background-color: #90CAF9;
-  border-radius: 0px;
-  border-bottom: 0px;
-  padding-left: 48px;
-  padding-top: auto;
-  padding-bottom: auto;
-  margin-bottom: 0px;
-  box-shadow: 0 4px 4px rgba(0,0,0,0.6);
-}
-
-.modal-icon-container {
-    height: 56px;
-    padding: 0 auto;
-    display: inline-block;
-    vertical-align: bottom;
-}
-
-.modal-icon {
-  display: inline-block;
-  vertical-align: middle;
-  height: 56px;
-}
 
 .exp-icons-container {
   height: auto;
@@ -227,105 +173,6 @@ background: linear-gradient(to left, #FF1744, #F44336); /* W3C, IE 10+/ Edge, Fi
   margin: auto;
 }
 
-.modal-footer {
-  background-color: #B0BEC5;
-  color: white;
-  padding: 0px;
-  border-top: none;
-  padding-right: 40px;
-}
-
-.modal-footer .container-fluid{
-  padding: 0px;
-}
-
-.modal-content {
-  height: 100%;
-  width: 100%;
-  min-height: 100%;
-  border-radius: 0px;
-  border: 0px;
-  color: black;
-  padding: 0px;
-  margin-top: 0px;
-}
-
-.modal-body {
-  background-color: #B0BEC5;
-  height: 500px;
-  width: auto;
-  margin-top: 0px;
-  border-radius: 0px;
-  overflow-y: auto;
-}
-
-.modal-design-description {
-  color: black;
-  background-color: white;
-  padding-left: 32px;
-  padding-right: 16px;
-  padding-bottom: 16px;
-  height: auto;
-  margin-top: 0px;
-}
-
-.modal-image-card {
-  background-color: white;
-  padding: 16px;
-  margin-top: 0px;
-}
-
-.modal-image {
-  padding: 8px;
-}
-
-.modal-image-flow {
-  padding: 40px;
-}
-
-.modal-image-grax-popup {
-  width: 300px;
-  height: auto;
-  padding-left: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-.row {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.row > [class*='col-'] {
-  display: flex;
-  flex-direction: column;
-}
-
-
-.divider {
-  height: 4px;
-  background-color: red;
-  padding: 0 !important;
-}
-
-.design-phase {
-  margin-bottom: 4px;
-}
-
-.nopadding {
-   padding: 0 !important;
-   margin: 0 !important;
-}
-
-.ResumeIcons {
-  height: 40px;
-  width: auto;
-  margin-bottom: 40px;
-  align-content: center;
-}
 
 .fa-paper-plane {
   font-size: 24px;
