@@ -8,6 +8,7 @@ body {
 h1 {
   font-size: 32px;
   font-family: 'Poppins', sans-serif;
+  font-weight: bold;
   color: rgba(0,0,0,.7);
 }
 
@@ -15,41 +16,63 @@ h1 {
 h2 {
   font-size: 24px;
   font-family: 'Poppins', sans-serif;
+  font-weight: bold;
   color: rgba(0,0,0,.7);
 }
 
 h3 {
   font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: rgba(0,0,0,.7);
 }
 
 h4 {
   font-size: 18px;
   font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: rgba(0,0,0,.7);
+}
+
+li {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  color: rgba(0,0,0,.7);
 }
 
 p {
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  color: rgba(0,0,0,.7);
 }
 
-p.imagedescription {
+p.imageDescription {
   font-size: 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Abel', sans-serif;
+  font-weight: normal;
+  color: rgba(0,0,0,.54);
+}
+
+p.imageComment {
+  font-size: 16px;
+  font-family: 'Abel', sans-serif;
+  font-weight: normal;
+  color: white;
+  padding: 20px 0px 0px 40px;
 }
 
 hr {
-  border-color: white;
+  border-color: #CDDC39;
   border-width: medium;
   padding: 0px;
   margin-top: 0px;
   margin-bottom: 16px;
 }
 
-.jumbotron {
-  background-image: url();
-}
-
 .navbar {
+  height: 80px;
   color: #FFFFFF;
   text-transform: uppercase;
   background: #f85032; /* fallback for old browsers */
@@ -57,7 +80,71 @@ hr {
   background: linear-gradient(to left, #f85032 , #e73827); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   box-shadow:0px 2px 2px rgba(0,0,0,0.5);
   border-bottom: none;
-  margin-bottom: 20px;
+}
+
+.navbar-header {
+  display: flex;
+}
+
+.brandIcon {
+  display: table-cell;
+}
+
+.brandLogo {
+  display: flex;
+  margin-left: 40px;
+  margin-right: 8px;
+}
+
+.brandName {
+  display: table-cell;
+  vertical-align: middle;
+  color: black;
+  font-weight: bolder;
+}
+
+.nav-item {
+  display: flex;
+  margin-left: 40px;
+  padding-top: 18px;
+  vertical-align: middle;
+  color: white;
+  font-size: 18px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.jumbotron {
+  background-image: url("https://i.imgur.com/Kk42njz.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 400px;
+  margin-top: 80px;
+}
+
+.careerCenterIntro {
+  padding: 40px 40px 40px 40px;
+}
+
+.rnnrIntro {
+  padding: 40px 40px 40px 40px;
+}
+
+.graxIntro {
+  padding: 40px 40px 40px 40px;
+}
+
+.projectIntro {
+  margin-top: 120px;
+  padding-left: 40px;
+  border-bottom: #CDDC39 1px solid;
+}
+
+.projectPanel {
+  padding: 40px 40px 40px 40px;
+  border-bottom: #CDDC39 1px solid;
 }
 
 .portfolio {
@@ -67,6 +154,24 @@ hr {
   background: #F44336; /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #FF1744, #F44336); /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #FF1744, #F44336); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.ccProjectPanel {
+  padding: 40px 40px 40px 40px;
+}
+
+
+.ccProjectImage {
+  background-image: url("https://i.imgur.com/mgG8imD.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+.personaImage {
+  padding-right: 8px;
+  padding-top: 16px;
 }
 
 
@@ -179,6 +284,7 @@ background: linear-gradient(to left, #FF1744, #F44336); /* W3C, IE 10+/ Edge, Fi
   color: #F44336;
   margin-right: 8px;
   margin-top: 0px;
+  padding-left: 40px;
 }
 
 .fa-paper-plane:hover {
@@ -189,12 +295,12 @@ background: linear-gradient(to left, #FF1744, #F44336); /* W3C, IE 10+/ Edge, Fi
   font-size: 24px;
   color: #F44336;
   margin-right: 8px;
+  padding-left: 40px;
 }
 
 .fa-file-text-o:hover {
   color: rgba(255,255,255,1.0);
 }
-
 
 .tools-section {
   padding: 0px;
