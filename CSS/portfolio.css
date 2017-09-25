@@ -53,6 +53,7 @@ p.imageDescription {
   font-family: 'Abel', sans-serif;
   font-weight: normal;
   color: rgba(0,0,0,.54);
+  padding: 8px 0px 0px 8px;
 }
 
 p.imageComment {
@@ -60,12 +61,12 @@ p.imageComment {
   font-family: 'Abel', sans-serif;
   font-weight: normal;
   color: white;
-  padding: 20px 0px 0px 40px;
+  padding: 40px 40px 40px 40px;
 }
 
 hr {
   border-color: #CDDC39;
-  border-width: medium;
+  border-width: thin;
   padding: 0px;
   margin-top: 0px;
   margin-bottom: 16px;
@@ -122,29 +123,66 @@ hr {
   background-repeat: no-repeat;
   height: 400px;
   margin-top: 80px;
+  text-align: center;
+  vertical-align: middle;
 }
 
-.careerCenterIntro {
+.splashMessage {
+    font-size: 24px;
+    font-family: 'Abel', sans-serif;
+    font-weight: normal;
+    color: white;
+    vertical-align: middle;
+    padding-top: 100px;
+}
+
+.careerCenterIntroHome {
+  margin-top: 20px;
   padding: 40px 40px 40px 40px;
 }
 
-.rnnrIntro {
+.imageIntro {
+  text-align: center;
+}
+
+.rnnrIntroHome {
+  margin-top: 40px;
   padding: 40px 40px 40px 40px;
 }
 
-.graxIntro {
+.graxIntroHome {
+  margin-top: 40px;
   padding: 40px 40px 40px 40px;
 }
 
 .projectIntro {
-  margin-top: 120px;
-  padding-left: 40px;
+  margin-top: 52px;
   border-bottom: #CDDC39 1px solid;
+  padding: 40px 40px 40px 40px;
+}
+
+.aboutMeIntro {
+  margin-top: 72px;
+  padding-left: 40px;
+  margin-bottom: 40px;
+  padding: 40px 40px 40px 40px;
 }
 
 .projectPanel {
-  padding: 40px 40px 40px 40px;
+  padding: 20px 40px 40px 40px;
   border-bottom: #CDDC39 1px solid;
+}
+
+.descriptionIntro {
+  padding: 40px 40px 40px 40px;
+}
+
+.leftPanel {
+ padding: 0px 20px 40px 16px;
+}
+
+.rightPanel {
+  padding: 0px 40px 40px 20px;
 }
 
 .portfolio {
@@ -162,11 +200,16 @@ background: linear-gradient(to left, #FF1744, #F44336); /* W3C, IE 10+/ Edge, Fi
 
 
 .ccProjectImage {
+  height: 600px;
   background-image: url("https://i.imgur.com/mgG8imD.jpg");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  height: 600px;
+  margin-bottom: 40px;
+}
+
+.projectImageRight {
+  padding: 40px 40px 40px 20px;
 }
 
 .personaImage {
@@ -174,6 +217,16 @@ background: linear-gradient(to left, #FF1744, #F44336); /* W3C, IE 10+/ Edge, Fi
   padding-top: 16px;
 }
 
+.curiousIntro {
+  margin-top: 72px;
+  padding-left: 40px;
+  margin-bottom: 40px;
+  padding: 40px 40px 40px 40px;
+}
+
+.curiousPanel {
+  margin-bottom: 40px;
+}
 
 .resume {
   color: #212121;
@@ -244,19 +297,6 @@ background: linear-gradient(to left, #FF1744, #F44336); /* W3C, IE 10+/ Edge, Fi
   height: 100px;
 }
 
-/*modal*/
-.modal {
-  position: absolute;
-  width: auto;
-  height: auto;
-}
-
-.modal-dialog {
-  width: auto;
-  height: auto;
-  margin: 0;
-  padding: 0;
-}
 
 
 .exp-icons-container {
@@ -283,23 +323,26 @@ background: linear-gradient(to left, #FF1744, #F44336); /* W3C, IE 10+/ Edge, Fi
   font-size: 24px;
   color: #F44336;
   margin-right: 8px;
-  margin-top: 0px;
-  padding-left: 40px;
+  padding-left: 8px;
 }
 
 .fa-paper-plane:hover {
-  color: rgba(255,255,255,1.0);
+  color: #AE1409;
 }
 
 .fa-file-text-o {
   font-size: 24px;
   color: #F44336;
   margin-right: 8px;
-  padding-left: 40px;
+  padding-left: 8px;
 }
 
 .fa-file-text-o:hover {
-  color: rgba(255,255,255,1.0);
+  color: #AE1409;
+}
+
+.subheader {
+  padding-left: 40px
 }
 
 .tools-section {
@@ -343,6 +386,11 @@ display:block;
 position:relative;
 margin-left: auto;
 margin-right: auto;
+}
+
+.ResumeIcons {
+  height: 48px;
+  margin-bottom: 40px;
 }
 
 .iconHover .ResumeIcons {
@@ -554,5 +602,5 @@ li {
 
 .skills {
   margin-top: 0px;
-  padding-top: 0px;
+  padding-left: 40px;
 }
