@@ -20,6 +20,13 @@ h2 {
   color: rgba(0,0,0,.7);
 }
 
+h2.splashMessage {
+  font-size: 24px;
+  font-family: 'Abel', sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
 h3 {
   font-size: 20px;
   font-family: 'Poppins', sans-serif;
@@ -54,6 +61,7 @@ p.imageDescription {
   font-weight: normal;
   color: rgba(0,0,0,.54);
   padding: 8px 0px 0px 8px;
+  text-align: left;
 }
 
 p.imageComment {
@@ -118,23 +126,30 @@ hr {
 }
 
 .jumbotron {
+  display: block;
   background-image: url("https://i.imgur.com/Kk42njz.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   height: 400px;
   margin-top: 80px;
   text-align: center;
-  vertical-align: middle;
 }
 
 .splashMessage {
     font-size: 24px;
     font-family: 'Abel', sans-serif;
     font-weight: normal;
-    color: white;
     vertical-align: middle;
-    padding-top: 100px;
+    color: white;
 }
+
+.splashQuote {
+    font-size: 16px;
+    font-family: 'Abel', sans-serif;
+    font-weight: normal;
+    color: white;
+}
+
 
 .careerCenterIntroHome {
   margin-top: 20px;
@@ -260,6 +275,11 @@ background: linear-gradient(to left, #FF1744, #F44336); /* W3C, IE 10+/ Edge, Fi
   text-align: center;
 }
 
+.imgBorder {
+  border: 1px solid black;
+}
+
+
 @-webkit-keyframes zoom {
     from {-webkit-transform:scale(0)}
     to {-webkit-transform:scale(1)}
@@ -268,11 +288,6 @@ background: linear-gradient(to left, #FF1744, #F44336); /* W3C, IE 10+/ Edge, Fi
 @keyframes zoom {
     from {transform:scale(0)}
     to {transform:scale(1)}
-}
-
-
-.row {
-  margin-bottom: 8px;
 }
 
 .title:hover {
