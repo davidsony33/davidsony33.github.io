@@ -338,7 +338,7 @@ background: linear-gradient(to left, #FF1744, #F44336); /* W3C, IE 10+/ Edge, Fi
   font-size: 24px;
   color: #F44336;
   margin-right: 8px;
-  padding-left: 8px;
+  padding: 0px 0px 8px 8px;
 }
 
 .fa-paper-plane:hover {
