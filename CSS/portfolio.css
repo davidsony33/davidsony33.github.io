@@ -251,28 +251,32 @@ background: linear-gradient(to left, #FF1744, #F44336); /* W3C, IE 10+/ Edge, Fi
 }
 
 .card {
-  background-color: #90CAF9;
-  height: 250px;
-  padding: 16px;
+  display: block;
+  padding: 32px;
   margin-bottom: 16px;
+  height: 480px;
 }
 
-.card:hover {
-  box-shadow: 0 3px 3px rgba(0,0,0,0.5);
-}
 
 .card-img-top {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  height: 200px;
+}
+
+.card-body {
+  display: inline-table;
+  height: auto;
 }
 
 .card-title {
-  text-align: center;
+  text-align: left;
 }
 
 .card-text {
-  text-align: center;
+  text-align: left;
+  height: auto;
 }
 
 .imgBorder {
