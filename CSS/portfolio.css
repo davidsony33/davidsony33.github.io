@@ -43,21 +43,21 @@ h4 {
 }
 
 li {
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
   color: rgba(0,0,0,.7);
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
   color: rgba(0,0,0,.7);
 }
 
 p.imageDescription {
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Abel', sans-serif;
   font-weight: normal;
   color: rgba(0,0,0,.54);
@@ -66,7 +66,7 @@ p.imageDescription {
 }
 
 p.imageComment {
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Abel', sans-serif;
   font-weight: normal;
   color: white;
@@ -126,6 +126,10 @@ hr {
   color: white;
 }
 
+.container-fluid {
+  max-width: 1200px;
+}
+
 .jumbotron {
   display: block;
   background-image: url("https://i.imgur.com/Kk42njz.jpg");
@@ -173,13 +177,17 @@ hr {
 
 .projectIntro {
   margin-top: 52px;
+  margin-bottom: 40px;
   border-bottom: #CDDC39 1px solid;
   padding: 40px 40px 40px 40px;
+
 }
 
 .aboutMeIntro {
+  width: 80%;
   margin-top: 72px;
-  padding-left: 40px;
+  padding-left: 50;
+  padding-right: auto;
   margin-bottom: 40px;
   padding: 40px 40px 40px 40px;
 }
@@ -188,6 +196,11 @@ hr {
   padding: 20px 40px 40px 40px;
   margin-bottom: 40px;
   border-bottom: #CDDC39 1px solid;
+}
+
+.projectPanelNoBorder {
+  padding: 20px 40px 40px 40px;
+  margin-bottom: 40px;
 }
 
 .descriptionIntro {
@@ -243,6 +256,7 @@ background: linear-gradient(to left, #FF1744, #F44336); /* W3C, IE 10+/ Edge, Fi
 
 .curiousPanel {
   margin-bottom: 40px;
+  padding: 40px 40px 40px 40px;
 }
 
 .resume {
