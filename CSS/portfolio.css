@@ -203,6 +203,9 @@ hr {
   margin-bottom: 40px;
 }
 
+.projectRow {
+  padding: 0px 0px 0px 0px;
+}
 .descriptionIntro {
   padding: 40px 40px 40px 40px;
 }
