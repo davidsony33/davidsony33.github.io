@@ -38,7 +38,7 @@ h3 {
 h4 {
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
-  font-weight: bold;
+  font-weight: bolder;
   color: rgba(0,0,0,.7);
 }
 
@@ -71,6 +71,48 @@ p.imageComment {
   font-weight: normal;
   color: white;
   padding: 40px 40px 40px 40px;
+}
+
+p.footerMenuItems {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  color: white;
+}
+
+li.footerMenuItems {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  color: white;
+}
+
+a.footerMenuItems {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  color: white;
+}
+
+
+a:link.footerMenuItems {
+  color: white;
+}
+
+a:visited {
+
+}
+
+a:focus {
+
+}
+
+a:hover {
+
+}
+
+a:active {
+
 }
 
 hr {
@@ -123,6 +165,17 @@ hr {
 }
 
 .nav-link {
+  color: white;
+}
+
+.footer {
+  height: 120px;
+  background-color: #607D8B;
+  margin-top: 120px;
+}
+
+.footerMenu{
+  padding-top: 16px;
   color: white;
 }
 
@@ -382,6 +435,12 @@ background: linear-gradient(to left, #FF1744, #F44336); /* W3C, IE 10+/ Edge, Fi
   color: #AE1409;
 }
 
+.fa-linkedin-square {
+  font-size: 16px;
+  color: white;
+  padding: 0px 0px 0px 8px;
+}
+
 .subheader {
   padding-left: 40px
 }
@@ -628,14 +687,6 @@ li {
   height: 120px;
 }
 
-#modalContact .modal-footer {
-  height: 48px;
-  padding-top: 0 auto;
-  padding-bottom: 0 auto;
-  padding-right: 16px;
-  background-color: #B0BEC5;
-  border-top: none;
-}
 
 #resume {
   float: left;
