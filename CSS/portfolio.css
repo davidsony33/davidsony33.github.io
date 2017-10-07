@@ -169,13 +169,13 @@ hr {
 }
 
 .footer {
-  height: 120px;
+  height: auto;
   background-color: #607D8B;
-  margin-top: 120px;
+  margin-top: 200px;
 }
 
-.footerMenu{
-  padding-top: 16px;
+.footerMenu {
+  padding: 20px 80px 40px 80px;
   color: white;
 }
 
@@ -332,8 +332,7 @@ background: linear-gradient(to left, #FF1744, #F44336); /* W3C, IE 10+/ Edge, Fi
 
 .card-img-top {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  padding-left: 28px;
   height: 200px;
 }
 
