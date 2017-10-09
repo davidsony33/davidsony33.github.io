@@ -185,10 +185,11 @@ hr {
 
 .jumbotron {
   display: block;
-  background-image: url("https://i.imgur.com/Kk42njz.jpg");
+  background-image: url("https://i.imgur.com/neLRxRt.jpg");
   background-size: 100%;
-  background-repeat: no-repeat;
-  height: 400px;
+  background-repeat: repeat-x;
+  height: 100%;
+  background-position: bottom;
   margin-top: 80px;
   text-align: center;
 }
@@ -198,6 +199,7 @@ hr {
     font-family: 'Abel', sans-serif;
     font-weight: normal;
     vertical-align: middle;
+    padding-top: 200px;
     color: white;
 }
 
