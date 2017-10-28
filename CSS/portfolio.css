@@ -128,7 +128,7 @@ hr {
 }
 
 .container-fluid {
-  max-width: 1200px;
+  max-width: 1400px;
 }
 
 .navbar {
@@ -164,16 +164,18 @@ hr {
 }
 
 .nav-item {
-  display: flex;
   margin-left: 40px;
   padding-top: 18px;
-  vertical-align: middle;
+  vertical-align: bottom;
   color: white;
   font-size: 18px;
 }
 
 .nav-link {
   color: white;
+}
+
+.active {
 }
 
 .card-deck {
@@ -193,7 +195,7 @@ hr {
 
 .jumbotron {
   display: block;
-  background-image: url("https://i.imgur.com/PDiz3cP.jpg");
+  background-image: url("https://i.imgur.com/FgUYSYi.jpg");
   background-size: cover;
   background-repeat: repeat-x;
   height: 600px;
@@ -203,7 +205,7 @@ hr {
 }
 
 .splashMessage {
-    font-size: 24px;
+    font-size: 40px;
     font-family: 'Abel', sans-serif;
     font-weight: normal;
     vertical-align: middle;
@@ -333,26 +335,34 @@ background: linear-gradient(to left, #FF1744, #F44336); /* W3C, IE 10+/ Edge, Fi
 }
 
 .card {
-  display: block;
-  padding: 32px;
-  margin-bottom: 16px;
-  height: 480px;
+  margin-bottom: 80px;
+  height: auto;
+  width: 360px;
+  padding: 40px 20px 40px 20px;
 }
 
 
 .card-img-top {
   display: block;
-  padding-left: 28px;
-  height: 200px;
+  margin: auto;
+  height: 360px;
+  width: 360px;
+
 }
 
 .card-body {
   display: inline-table;
+  text-align: left;
   height: auto;
+  width: 400px;
+  max-width: 400px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .card-title {
   text-align: left;
+  width: 400px;
 }
 
 .card-text {
@@ -421,34 +431,26 @@ background: linear-gradient(to left, #FF1744, #F44336); /* W3C, IE 10+/ Edge, Fi
   margin: auto;
 }
 
-
-.fa-paper-plane {
-  font-size: 24px;
-  color: #F44336;
-  margin-right: 8px;
-  padding: 0px 0px 8px 24px;
+.fa-envelope {
+  font-size: 18px;
 }
 
-.fa-paper-plane:hover {
-  color: #AE1409;
+.fa-linkedin-square {
+  font-size: 18px;
 }
 
 .fa-file-text-o {
   font-size: 24px;
   color: #F44336;
-  margin-right: 8px;
-  padding: 8px 0px 8px 24px;
+  margin-right: 16px;
+  padding: 8px 0px 8px 28px;
 }
 
 .fa-file-text-o:hover {
-  color: #AE1409;
+  color: black;
 }
 
-.fa-linkedin-square {
-  font-size: 16px;
-  color: white;
-  padding: 0px 0px 0px 8px;
-}
+
 
 .subheader {
   padding-left: 40px
