@@ -636,56 +636,11 @@ li {
   margin-left: 16px;
 }
 
-#page-title {
-  font-family: Montserrat;
-  text-transform: uppercase;
-  font-size: 36px;
-  color: white;
-  font-weight: bolder;
-  margin: 0px;
-  padding: 0px;
+.page-title {
+  margin-top: 120px;
+  padding-left: 24px;
 }
 
-#my-title {
-  font-family: Montserrat;
-  font-style: normal;
-  text-transform: uppercase;
-  font-size: 24px;
-  color: rgba(255,255,255,0.54);
-  margin-bottom: 40px;
-  padding: 0px;
-}
-
-#modalContact {
-  position: fixed;
-  top: 5%;
-  margin: 0 auto;
-  width: 500px;
-  height: auto;
-}
-
-#modal .modal-header {
-  height: 48px;
-  padding-left: 0px;
-}
-
-#modalContactHeader {
-  font-family: Poppins;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-#modalContact .modal-content {
-  height: 300px;
-}
-
-#modalContact .modal-body {
-  height: 340px;
-  font-family: Poppins;
-  font-size: 16px;
-  padding: 0px;
-  background-color: #B0BEC5;
-}
 
 .form-group {
   margin-left: 16px;
