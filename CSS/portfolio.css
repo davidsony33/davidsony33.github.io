@@ -337,7 +337,7 @@ background: linear-gradient(to left, #FF1744, #F44336); /* W3C, IE 10+/ Edge, Fi
 .card {
   margin-bottom: 80px;
   height: auto;
-  width: 360px;
+  width: 400px;
   padding: 40px 20px 40px 20px;
 }
 
@@ -351,7 +351,6 @@ background: linear-gradient(to left, #FF1744, #F44336); /* W3C, IE 10+/ Edge, Fi
 }
 
 .card-body {
-  display: inline-table;
   text-align: left;
   height: auto;
   width: 400px;
@@ -360,9 +359,15 @@ background: linear-gradient(to left, #FF1744, #F44336); /* W3C, IE 10+/ Edge, Fi
   padding-right: 8px;
 }
 
+.card-block {
+  text-align: left;
+  height: auto;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
 .card-title {
   text-align: left;
-  width: 400px;
 }
 
 .card-text {
