@@ -69,6 +69,15 @@ p.imageDescription {
   text-align: left;
 }
 
+p.iconDescription {
+  font-size: 12px;
+  font-family: 'Abel', sans-serif;
+  font-weight: normal;
+  color: rgba(0,0,0,.54);
+  padding: 8px 0px 0px 8px;
+  text-align: left;
+}
+
 p.imageComment {
   font-size: 18px;
   font-family: 'Abel', sans-serif;
@@ -472,7 +481,7 @@ background: linear-gradient(to left, #FF1744, #F44336); /* W3C, IE 10+/ Edge, Fi
 }
 
 .iconHover {
-  width: 120px;
+  width: auto;
   position: relative;
   top: 0px;
   left: 0px;
@@ -666,4 +675,5 @@ li {
 .skills {
   margin-top: 0px;
   padding-left: 40px;
+
 }
