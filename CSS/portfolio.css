@@ -237,6 +237,15 @@ h2.intro {
 h3.intro {
   color: white;
   text-align: left;
+  font-family: 'Abel', sans-serif;
+  font-weight: normal;
+}
+
+h4.intro {
+  color: white;
+  text-align: left;
+  font-family: 'Abel', sans-serif;
+  font-weight: normal;
 }
 
 p.intro {
