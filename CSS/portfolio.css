@@ -299,7 +299,7 @@ p.intro {
 }
 
 .sectionHeader {
-  padding-left: 32px;
+  padding-left: 12px;
 }
 
 .aboutMe {
@@ -412,7 +412,7 @@ p.intro {
 }
 
 .portfolio {
-  padding: 80px 56px 80px 56px;
+  padding: 40px 56px 40px 56px;
 }
 
 .ccProjectPanel {
@@ -457,21 +457,20 @@ p.intro {
   padding-right: 72px;
 }
 
-.card {
-  margin: 0px 16px 80px 16px;
+.pcard {
+  margin: 0px 0px 80px 0px;
   border: 0;
   height: auto;
-  width: 400px;
-  padding: 40px 20px 40px 20px;
-  float: left;
+  width: 1000px;
 }
 
 .card-img-top {
   display: block;
   margin: auto;
-  height: 360px;
-  width: 360px;
+  height: 200px;
+  width: 200px;
   border-radius: 0;
+  float: left;
 }
 
 .card-body {
@@ -488,6 +487,7 @@ p.intro {
   height: auto;
   padding-left: 4px;
   padding-right: 4px;
+  width: 400px;
 }
 
 .card-title {
@@ -498,7 +498,8 @@ p.intro {
 .card-text {
   text-align: left;
   height: auto;
-  margin: 4px 4px 4px 4px;
+  width: 500px;
+  padding: 0px 4px 4px 4px;
 }
 
 .card-link {
