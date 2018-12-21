@@ -12,21 +12,24 @@
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
   <link rel="stylesheet" type="text/css" href="CSS/portfolio.css">
   <link href="https://fonts.googleapis.com/css?family=Abel|Roboto|Roboto+Slab" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 <body>
 
 <!--Navigation-->
   <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
     <div class="container d-flex justify-content-between">
-    <a class="navbar-brand d-flex align-items-center" href="#"><img class="logo d-inline-block align-middle" src="PortfolioAssets/DavidsonLogoBW.png" width="30" height="30"><span>Davidson</span></a>
+    <a class="navbar-brand d-flex align-items-center" href="#"><span>Davidson Young</span></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse position-startic" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-item nav-link" href="index.html#myPortfolio">Portfolio</a>
-        <a class="nav-item nav-link" href="index.html#aboutMe">About</a>
-        <a class="nav-item nav-link" href="mailto:hello@davidsonyoung.com">Contact</a>
+        <a class="nav-item nav-link" href="aboutme.html">About</a>
+        <a class="nav-item nav-link" href="mailto:hello@davidsonyoung.com"><i class="fas fa-envelope"></i></a>
+        <a class="nav-item nav-link" href="https://www.linkedin.com/in/davidsonyoung" target=_blank><i class="fab fa-linkedin"></i></a>
+        <a class="nav-item nav-link" href="https://www.dropbox.com/s/gqzm50ae0k7hhxy/Davidson%20Young%20Resume.pdf?dl=0" target=_blank><i class="fas fa-file-alt"></i></a>
       </div>
     </div>
     </div>
@@ -35,17 +38,27 @@
 <!--introduction-->
 <div class="container-fluid homeIntro">
     <div class="container">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xs-12 projectPanel">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xs-12">
         </div>
         <div class="row">
-          <div class="col-xlg-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 panelLeft">
+          <div class="col-xlg-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 leftPanel">
+            <img class="img-fluid profilePic" src="PortfolioAssets/Davidson Profile Picture.jpg">
           </div>
-        <div class="col-xlg-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 panelRight">
-          <h1 class="intro">Davidson Young</h1>
-          <h3 class="intro">UX Designer
-          <br>Problem Solver
-          <br>Adventurous Eater
-        </h3>
+        <div class="col-xlg-8 col-lg-8 col-md-8 col-sm-12 col-xs-12 rightPanel">
+          <h2 class="intro"><b>Hey there, I'm Davidson.</h1>
+          <h3 class="self">UX Designer | Problem Solver | Adventurous Eater</b></h3>
+          <br>
+          <br>I’m interested in designing solutions so workers are more productive and efficient. As a User Experience Designer
+          at SAP's Innnovation Center, I'm designing the intelligent hospital of the future.
+          </h3>
+          <br>
+          <!--
+          <h4>My Toolbox</h4>
+          <p>Sketch | Abode XD | Invision | Illustrator | Photoshop
+          <p>Field Research | User Interviews | Usability Testing | Heuristic Evaluations
+          <p>Storyboarding | Wireframing | Prototyping
+          <p>HTML | CSS | Javascript</p>
+        -->
         </div>
       </div>
   </div>
@@ -53,66 +66,92 @@
 
 
 <!--Portfolio-->
-<div class="container portfolio">
+<div class="container-fluid portfolio">
   <div class="row">
     <div class="col-xlg-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-      <h2 class="sectionHeader" id="myPortfolio">My Portfolio</h2>
+      <h2 class="sectionHeader" id="myPortfolio"></h2>
     </div>
   </div>
 
-  <div class="col-xlg-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+<div class="row">
+  <div class="col-xlg-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <div class="pcard">
+
+      <div class="row">
+        <div class="col-xlg-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <img class="card-img-top img-fluid" alt="SAP Project" src="PortfolioAssets/SAP Portfolio Card.png">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xlg-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 card-body">
+          <h1 class="card-title">SAP Innovation Center</h1>
+          <p class="card-text">I'm designing innovative solutions to increase productivity and efficiency in healthcare.
+          <br><i>Under Construction</i></p>
+        </div>
+      </div>
+      </div>
+    </div>
+
+
+
+  <div class="col-xlg-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
     <div class="pcard">
       <div class="row">
-        <div class="col-xlg-3 col-lg-3 col-md-12 col-sm-12 col-xs-12">
-          <img class="card-img-top img-fluid" alt="Davidson" src="PortfolioAssets/PortfolioProjectCards_SAP Internship.png" width="200px" height="200px">
+        <div class="col-xlg-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <img class="card-img-top img-fluid" alt="Accenture Project" src="PortfolioAssets/Accenture Portfolio Card.png">
         </div>
-        <div class="col-xlg-6 col-lg-6 col-md-12 col-sm-12 col-xs-612">
-          <h4 class="card-title">SAP Internship</h4>
-          <p class="card-text">Project 1: Developed prototype for a supply chain solution.
-            <br>Project 2: Conducted user interviews and research to identify opportunities to improve project managers' workflows.
-            <br>Side Project: Developed proof of concept for B2B marketplace connecting grocers with restaurants. Leveraged computer vision technology to identify about to expire fruits and vegetables.
-          </p>
+      </div>
+      <div class="row">
+        <div class="col-xlg-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 card-body">
+          <h1 class="card-title">Accenture Capstone Project</h1>
+          <p class="card-text">Our UX research and design project aimed to improve the work of caregivers.
+          <br><i>Under Construction</i></p>
         </div>
-        <div class="col-xlg-3 col-lg-3 col-md-12 col-sm-12 col-xs-12">
-        </div>
-  </div>
-  </div>
+      </div>
+    </div>
   </div>
 
-    <div class="col-xlg-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+</div>
+
+<div class="row">
+    <div class="col-xlg-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
       <div class="pcard">
         <div class="row">
-          <div class="col-xlg-3 col-lg-3 col-md-12 col-sm-12 col-xs-12">
-            <img class="card-img-top img-fluid" alt="Career Center" src="PortfolioAssets/Project Card Nestling.png" width="200px" height="200px">
+          <div class="col-xlg-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <img class="card-img-top img-fluid" alt="Nestling" src="PortfolioAssets/Nestling Portfolio Card.png">
           </div>
-          <div class="col-xlg-6 col-lg-6 col-md-12 col-sm-12 col-xs-612">
-            <h4 class="card-title">Nestling</h4>
-            <p class="card-text">Designed app to keep parents in the loop of the child's important milestones and moments.</p>
-            <a href="nestling.html" class="card-link">View Project</a>
+        </div>
+        <div class="row">
+          <div class="col-xlg-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h1 class="card-title">Nestling</h1>
+            <p class="card-text">Keeping parents in the loop of their child's important milestones and moments.
+            <br><a href="nestling.html">View Project</a></p>
           </div>
-          <div class="col-3">
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-xlg-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+      <div class="pcard">
+        <div class="row">
+          <div class="col-xlg-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <img class="card-img-top img-fluid" alt="Reddit" src="PortfolioAssets/Reddit Portfolio Card.png">
           </div>
+        </div>
+        <div class="row">
+        <div class="col-xlg-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h1 class="card-title">Case Study: Reddit.com</h1>
+            <p class="card-text">Redesigning the Reddit.com experience.
+            <br><a href="reddit.html" target="_blank" class="card-link">View Project</a></p>
+        </div>
       </div>
     </div>
     </div>
-
-    <div class="col-xlg-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-      <div class="pcard">
-        <div class="row">
-          <div class="col-xlg-3 col-lg-3 col-md-12 col-sm-12 col-xs-12">
-            <img class="card-img-top img-fluid" alt="Reddit" src="PortfolioAssets/Project Card Reddit.png" width="200px" height="200px">
-          </div>
-          <div class="col-xlg-6 col-lg-6 col-md-12 col-sm-12 col-xs-612">
-            <h4 class="card-title">Case Study: Reddit.com</h4>
-            <p class="card-text">Conducted user research to redesign the Reddit.com homepage.</p>
-            <a href="reddit.html" target="_blank" class="card-link">View Project</a>
-          </div>
-          <div class="col-xlg-3 col-lg-3 col-md-12 col-sm-12 col-xs-12">
-          </div>
-      </div>
-    </div>
-    </div>
-
+  </div>
+<!--
     <div class="col-xlg-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
       <div class="pcard">
         <div class="row">
@@ -129,8 +168,7 @@
         </div>
       </div>
     </div>
-
-
+-->
 
 </div>
 
@@ -163,39 +201,7 @@
 </div>
 </div>
 
-<!--About Me-->
-<div class="container-fluid aboutMe">
-  <div class="container">
-    <div class="col-xlg-12 col-lg-12 col-md-12 col-sm-12 col-xs-12  projectPanel">
-      <div class="row">
-      <h2 id="aboutMe">About Me</h2>
-      </div>
-  <div class="row">
-    <div class="col-xlg-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 leftPanel">
-      <p>Hello! I'm a UX Design Intern at SAP and a graduate student in <a href="https://mhcid.ics.uci.edu/" target="_blank">Human Computer Interaction + Design at UC Irvine</a>.</p>
-      <p>I'm interested in making products more enjoyable and useful. In particular, I'm interested in designing enterprise software to help people work more
-        efficiently and effectively.
-      <p>I believe in an iterative process that begins with understanding the user and the problem. I love the problem solving nature of design.</p>
-      <p>I have two dogs - both pug mixes. I enjoy running new trails around the Bay Area.</p>
-      <br>
-      <h4>My Toolbox</h4>
-      <p>Sketch | Invision | Illustrator | Photoshop
-      <p>Prototyping | Usability Testing | Heuristic Evaluations
-      <p>HTML | CSS | Javascript</p>
-      <br>
-      <h4>What I'm Learning Now</h4>
-      <p><em>Check out <a href="sandbox.html" target="_blank">my sandbox.</em></a>
-        <ul>
-          <li>Alexa Skills development</li>
-          <li>Drawing and animation</li>
-        </ul>
-    </div>
-    <div class="col-xlg-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 rightPanel">
-    </div>
-  </div>
-</div>
-</div>
-</div>
+
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
