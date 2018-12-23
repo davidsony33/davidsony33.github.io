@@ -185,7 +185,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#84ffff', end
 }
 
 .navbar-nav {
-  vertical-align: middle;
+  vertical-align: left;
   color: white;
   text-transform: uppercase;
   border-bottom: none;
