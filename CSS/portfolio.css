@@ -253,6 +253,17 @@ h1.intro {
   text-align: left;
 }
 
+h1.introSAP {
+  color: #0C7ECF;
+  text-align: left;
+}
+
+h1.introAccenture {
+  color: #0089FF;
+  text-align: left;
+}
+
+
 h2.intro {
   color: black;
   opacity: .94;
@@ -261,8 +272,17 @@ h2.intro {
   font-weight: normal;
 }
 
+
+
 h3.intro {
   color: white;
+  text-align: left;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 100;
+}
+
+h3.introBlack {
+  color: black;
   text-align: left;
   font-family: 'Dosis', sans-serif;
   font-weight: 100;
@@ -333,7 +353,7 @@ p.intro {
 .homeIntro {
   height: auto;
   margin-top: 80px;
-  margin-bottom: 160px;
+  margin-bottom: 40px;
   padding: 0px 40px 40px 40px;
 }
 
@@ -372,6 +392,35 @@ p.intro {
   height: 600px;
   padding-top: 20px;
   margin-bottom: 40px;
+}
+
+.accentureIntro {
+  background-image: url(https://i.imgur.com/RodDIth.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-color: gray;
+  height: 600px;
+  padding-top: 20px;
+  margin-bottom: 40px;
+}
+
+.sapIntro {
+  background-image: url(https://i.imgur.com/Yxrg3lO.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: gray;
+  height: 600px;
+  padding-top: 20px;
+  margin-bottom: 40px;
+}
+
+.pdfViewer {
+  height: 1000px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  background-color: black;
 }
 
 
