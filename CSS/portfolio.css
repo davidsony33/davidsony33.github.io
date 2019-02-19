@@ -752,7 +752,20 @@ padding: 20px 0px 16px 0px;
   padding: 0px;
   margin: 0px;
 }
+/*
+.profilePic {
+  height: 240px;
+  width: 240px;
+}
 
+
+.profilePic:Hover {
+  content: url("https://i.imgur.com/SNQcKYj.png");
+  display: block;
+  height: 240px;
+  width: 240px;
+}
+*/
 .iconHover {
   width: auto;
   position: relative;
