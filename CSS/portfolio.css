@@ -570,10 +570,57 @@ p.intro {
   width: auto;
 }
 
-.card-img-top {
+.card-img-topA {
   display: block;
   height: auto;
   float: left;
+  background: #f73169; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #f73169 0%, #89c4ff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #f73169 0%,#89c4ff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #f73169 0%,#89c4ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f73169', endColorstr='#89c4ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.card-img-topB {
+  display: block;
+  height: auto;
+  float: left;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4096ee+0,44fcfc+100 */
+background: #4096ee; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #4096ee 0%, #44fcfc 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #4096ee 0%,#44fcfc 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #4096ee 0%,#44fcfc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4096ee', endColorstr='#44fcfc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+border-top-left-radius: 40px;
+border-bottom-right-radius: 40px;
+}
+
+.card-img-topC {
+  display: block;
+  height: auto;
+  float: left;
+  background: #ea2e32; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #ea2e32 0%, #ea3867 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #ea2e32 0%,#ea3867 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #ea2e32 0%,#ea3867 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea2e32', endColorstr='#ea3867',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+border-top-left-radius: 40px;
+border-bottom-right-radius: 40px;
+}
+
+.card-img-topD {
+  display: block;
+  height: auto;
+  float: left;
+  background: #87e0fd; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #87e0fd 0%, #53edbc 40%, #07daf2 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #87e0fd 0%,#53edbc 40%,#07daf2 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #87e0fd 0%,#53edbc 40%,#07daf2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#07daf2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
 }
 
 .card-body {
@@ -592,7 +639,7 @@ p.intro {
 
 .pcard-title {
   text-align: left;
-  padding: 0px 40px 0px 40px;
+  padding: 20px 40px 0px 40px;
 }
 
 .pcard-text {
